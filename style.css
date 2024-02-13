@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:  'Times New Roman';
+    min-height: 100px;
+}
+.grid-container {
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-auto-rows: 100px 100px 100px 100px 100px 100px;
+    gap: 1rem;
+}
+.box {
+    font-size: 2px;
+    padding: 0.5rem;
+}
+.item1 {
+    background-color: yellow;
+    border: 5px solid #03c;
+    grid-area: Site Title;
+    grid-column: 1 / 4 ;
+    grid-row-start: 1;
+}
+.item2 {
+    background-color: pink;
+    grid-area: Nav 1;
+}
+.item3 {
+    background-color: pink;
+    grid-area: Nav 2;
+}
+.item4 {
+    background-color: pink;
+    grid-area: Nav 3;
+}
+.item5 {
+    grid-area: Post Title;
+}
+.item6 {
+    grid-area: Side Bar;
+}
+.item7 {
+    grid-area: Post Meta;
+}
+.item8 {
+    grid-area: Main Content;
+}
+.item9 {
+    grid-area: Ads;
+}
+.item10 {
+    grid-area: Main Content Image;
+}
+.item11 {
+    grid-area: Other Stuff;
+}
+
